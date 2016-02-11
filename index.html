@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Mediummark editor</title>
+
+    <link rel="stylesheet" href="node_modules/medium-editor/dist/css/medium-editor.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/medium-editor/dist/js/medium-editor.min.js"></script>
+    <script src="node_modules/html2commonmark/dist/browser/bundle.js"></script>
+    <script src="dist/app.js"></script>
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Mediummark editor</h1>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="" class="switch-medium">Medium</a></li>
+                <li role="presentation"><a href="" class="switch-markdown">Markdown</a></li>
+            </ul>
+            <div class="medium-editor"></div>
+            <textarea name="markdown-editor" id="markdown-editor" class="markdown-editor" cols="60" rows="30" hidden></textarea>
+        </div>
+    </div>
+</body>
+
+</html>

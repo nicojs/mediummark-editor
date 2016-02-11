@@ -1,0 +1,28 @@
+{
+  "name": "mediummark-editor",
+  "version": "0.0.0",
+  "description": "An editor in which you can easily switch between markdown and the medium WYSIWYG editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "prestart": "node node_modules/browserify/bin/cmd.js app/app.js -o dist/app.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "medium-editor",
+    "markdown",
+    "commonmark"
+  ],
+  "author": "nicojs",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "commonmark": "^0.24.0",
+    "html2commonmark": "^0.2.0",
+    "medium-editor": "^5.14.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "express": "^4.13.4"
+  }
+}
