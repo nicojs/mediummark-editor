@@ -18,7 +18,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "commonmark": "^0.24.0",
-    "html2commonmark": "^0.2.0",
+    "html2commonmark": "^0.4.1",
     "medium-editor": "^5.14.2"
   },
   "devDependencies": {
